@@ -16,6 +16,16 @@ button {
     border-radius: 4px;
     cursor: pointer; 
 }
+h1 {
+    font-size: 40px;
+    font-size: calc(24px + 16 *(100vw / 1080));
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: calc(24px + (16 + 16 * 0.7)*((100vw - 320px)/ 1080));
+}
+}
 .modal {
     border-radius: 4px;
     padding: 1em 2em;
