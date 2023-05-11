@@ -1,0 +1,29 @@
+
+*,*::after, *::before {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button {
+    padding: .8em 1.5em;
+    background-color: tan;
+    border: 0;
+    color: black;
+    border-radius: 4px;
+    cursor: pointer; 
+}
+.modal {
+    border-radius: 4px;
+    padding: 1em 2em;
+    text-align: center;
+    width: 600px;   
+}
+
+.modal::backdrop {
+    background-color:rgb(96, 45, 8);
+    opacity: 0.5;
+}
